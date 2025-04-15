@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+<h3>📊 SHAP Explanation for: {{ shap_path }}</h3>
+<img src="{{ url_for('static', filename=shap_path) }}" class="img-fluid" alt="SHAP Chart">
+<a href="{{ url_for('admin_dashboard') }}" class="btn btn-secondary mt-4">⬅ Back to Admin</a>
+{% endblock %}

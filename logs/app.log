@@ -1,0 +1,917 @@
+2025-04-14 20:19:28,688 | WARNING |  * Debugger is active!
+2025-04-14 20:19:28,690 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 20:20:14,735 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-14 20:20:33,063 | WARNING |  * Debugger is active!
+2025-04-14 20:20:33,065 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 20:22:24,362 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-14 20:22:42,873 | WARNING |  * Debugger is active!
+2025-04-14 20:22:42,877 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 20:23:09,036 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-14 20:23:27,146 | WARNING |  * Debugger is active!
+2025-04-14 20:23:27,148 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 20:24:25,613 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-14 20:24:44,443 | WARNING |  * Debugger is active!
+2025-04-14 20:24:44,445 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 20:27:39,326 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-14 20:27:57,313 | WARNING |  * Debugger is active!
+2025-04-14 20:27:57,319 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 20:28:38,684 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-14 20:28:57,920 | WARNING |  * Debugger is active!
+2025-04-14 20:28:57,923 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 20:39:13,069 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-14 20:48:26,337 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 20:48:26,337 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-14 20:48:26,339 | INFO |  * Restarting with stat
+2025-04-14 20:48:41,868 | WARNING |  * Debugger is active!
+2025-04-14 20:48:41,877 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 20:48:54,172 | INFO | 127.0.0.1 - - [14/Apr/2025 20:48:54] "GET / HTTP/1.1" 200 -
+2025-04-14 20:48:58,200 | INFO | 127.0.0.1 - - [14/Apr/2025 20:48:58] "[33mGET /list_resumes HTTP/1.1[0m" 404 -
+2025-04-14 20:48:59,379 | INFO | 127.0.0.1 - - [14/Apr/2025 20:48:59] "GET / HTTP/1.1" 200 -
+2025-04-14 20:49:31,026 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 20:49:31,026 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-14 20:49:31,029 | INFO |  * Restarting with stat
+2025-04-14 20:49:53,859 | WARNING |  * Debugger is active!
+2025-04-14 20:49:53,867 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 20:52:00,049 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:00] "GET / HTTP/1.1" 200 -
+2025-04-14 20:52:00,313 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:00] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-14 20:52:15,395 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:15] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-14 20:52:15,473 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-14 20:52:17,659 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:17] "[33mGET /view_results HTTP/1.1[0m" 404 -
+2025-04-14 20:52:18,737 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:18] "GET / HTTP/1.1" 200 -
+2025-04-14 20:52:18,791 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-14 20:52:20,574 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:20] "[32mGET /charts HTTP/1.1[0m" 302 -
+2025-04-14 20:52:20,615 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:20] "GET /login HTTP/1.1" 200 -
+2025-04-14 20:52:25,427 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 20:52:25,443 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:25] "GET /login HTTP/1.1" 200 -
+2025-04-14 20:52:33,387 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-14 20:52:33,397 | INFO | 127.0.0.1 - - [14/Apr/2025 20:52:33] "GET /login HTTP/1.1" 200 -
+2025-04-14 21:09:46,247 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 21:09:46,247 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-14 21:09:46,252 | INFO |  * Restarting with stat
+2025-04-14 21:10:08,741 | WARNING |  * Debugger is active!
+2025-04-14 21:10:08,747 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 21:10:56,330 | INFO | 127.0.0.1 - - [14/Apr/2025 21:10:56] "GET /login HTTP/1.1" 200 -
+2025-04-14 21:11:01,019 | INFO | 127.0.0.1 - - [14/Apr/2025 21:11:01] "[33mGET /view_results HTTP/1.1[0m" 404 -
+2025-04-14 21:11:41,104 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 21:11:41,105 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-14 21:11:41,109 | INFO |  * Restarting with stat
+2025-04-14 21:12:02,210 | WARNING |  * Debugger is active!
+2025-04-14 21:12:02,215 | INFO |  * Debugger PIN: 224-514-821
+2025-04-14 21:19:51,711 | INFO | 127.0.0.1 - - [14/Apr/2025 21:19:51] "GET / HTTP/1.1" 200 -
+2025-04-14 21:19:51,889 | INFO | 127.0.0.1 - - [14/Apr/2025 21:19:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:20:05,563 | INFO | [JD Upload] guest uploaded JD: A.pdf
+2025-04-14 21:20:05,567 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:05] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-14 21:20:05,578 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:05] "GET / HTTP/1.1" 200 -
+2025-04-14 21:20:05,617 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:20:20,126 | INFO | [Resume Upload] User: guest uploaded B.pdf
+2025-04-14 21:20:20,128 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:20] "[32mPOST /upload_resume HTTP/1.1[0m" 302 -
+2025-04-14 21:20:20,144 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:20] "GET / HTTP/1.1" 200 -
+2025-04-14 21:20:20,202 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:20:31,034 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:31] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-14 21:20:31,068 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:20:38,356 | WARNING | [Access Denied] None tried to access /match_all_selected
+2025-04-14 21:20:40,480 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:40] "[35m[1mGET /match_all_selected?jd_filename=A.pdf&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-14 21:20:41,622 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:41] "GET /match_all_selected?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-14 21:20:41,885 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:41] "GET /match_all_selected?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-14 21:20:42,002 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:42] "GET /match_all_selected?__debugger__=yes&cmd=resource&f=console.png&s=u9TZxLL4GipwydAv5k4k HTTP/1.1" 200 -
+2025-04-14 21:20:42,046 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:42] "GET /match_all_selected?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-14 21:20:50,482 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:50] "[33mGET /view_results HTTP/1.1[0m" 404 -
+2025-04-14 21:20:51,809 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:51] "GET / HTTP/1.1" 200 -
+2025-04-14 21:20:51,882 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:20:52,458 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:52] "HEAD / HTTP/1.1" 200 -
+2025-04-14 21:20:52,474 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:52] "GET / HTTP/1.1" 200 -
+2025-04-14 21:20:52,497 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-14 21:20:53,321 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:53] "[32mGET /charts HTTP/1.1[0m" 302 -
+2025-04-14 21:20:53,351 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:53] "GET /login HTTP/1.1" 200 -
+2025-04-14 21:20:56,113 | INFO | 127.0.0.1 - - [14/Apr/2025 21:20:56] "GET / HTTP/1.1" 200 -
+2025-04-15 09:22:43,864 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\ml_model\\job_title_predictor.py', reloading
+2025-04-15 09:23:22,706 | INFO |  * Restarting with stat
+2025-04-15 09:24:34,456 | WARNING |  * Debugger is active!
+2025-04-15 09:24:34,505 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:04:39,368 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 10:04:39,369 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-15 10:04:39,371 | INFO |  * Restarting with stat
+2025-04-15 10:04:53,853 | WARNING |  * Debugger is active!
+2025-04-15 10:04:53,858 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:06:56,769 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-15 10:08:29,642 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 10:08:29,642 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-15 10:08:29,647 | INFO |  * Restarting with stat
+2025-04-15 10:08:46,968 | WARNING |  * Debugger is active!
+2025-04-15 10:08:46,975 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:08:50,030 | INFO | 127.0.0.1 - - [15/Apr/2025 10:08:50] "GET / HTTP/1.1" 200 -
+2025-04-15 10:08:50,055 | INFO | 127.0.0.1 - - [15/Apr/2025 10:08:50] "GET / HTTP/1.1" 200 -
+2025-04-15 10:08:51,231 | INFO | 127.0.0.1 - - [15/Apr/2025 10:08:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:08:51,243 | INFO | 127.0.0.1 - - [15/Apr/2025 10:08:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:13:27,898 | INFO | 127.0.0.1 - - [15/Apr/2025 10:13:27] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 10:13:27,937 | INFO | 127.0.0.1 - - [15/Apr/2025 10:13:27] "GET / HTTP/1.1" 200 -
+2025-04-15 10:13:28,032 | INFO | 127.0.0.1 - - [15/Apr/2025 10:13:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:13:45,047 | INFO | 127.0.0.1 - - [15/Apr/2025 10:13:45] "GET /?matching_mode=semantic HTTP/1.1" 200 -
+2025-04-15 10:13:45,272 | INFO | 127.0.0.1 - - [15/Apr/2025 10:13:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:13:47,872 | INFO | 127.0.0.1 - - [15/Apr/2025 10:13:47] "GET /?matching_mode=semantic HTTP/1.1" 200 -
+2025-04-15 10:13:47,938 | INFO | 127.0.0.1 - - [15/Apr/2025 10:13:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:13:58,254 | INFO | 127.0.0.1 - - [15/Apr/2025 10:13:58] "GET /?matching_mode=semantic HTTP/1.1" 200 -
+2025-04-15 10:13:58,286 | INFO | 127.0.0.1 - - [15/Apr/2025 10:13:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:14:05,500 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:05] "[32mPOST /upload_resume HTTP/1.1[0m" 302 -
+2025-04-15 10:14:05,516 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:05] "GET / HTTP/1.1" 200 -
+2025-04-15 10:14:05,579 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:14:08,178 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:08] "GET /?matching_mode=semantic HTTP/1.1" 200 -
+2025-04-15 10:14:08,527 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:14:34,246 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:34] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 10:14:34,264 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:34] "GET / HTTP/1.1" 200 -
+2025-04-15 10:14:34,324 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:14:49,378 | INFO | [JD Upload] guest uploaded JD: PACT Analysis for a Virtual Car Showroom 2.pdf
+2025-04-15 10:14:49,379 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:49] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 10:14:49,402 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:49] "GET / HTTP/1.1" 200 -
+2025-04-15 10:14:49,452 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:14:56,506 | WARNING | [Access Denied] None tried to access /match_all_selected
+2025-04-15 10:14:57,335 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:57] "[35m[1mGET /match_all_selected?jd_filename=PACT+Analysis+for+a+Virtual+Car+Showroom+2.pdf&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 10:14:57,920 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:57] "[36mGET /match_all_selected?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:14:58,075 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:58] "[36mGET /match_all_selected?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 10:14:58,285 | INFO | 127.0.0.1 - - [15/Apr/2025 10:14:58] "GET /match_all_selected?__debugger__=yes&cmd=resource&f=console.png&s=B2sgIzEuT7gtvEfDRYNY HTTP/1.1" 200 -
+2025-04-15 10:15:52,557 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-15 10:15:56,071 | INFO |  * Restarting with stat
+2025-04-15 10:16:14,942 | WARNING |  * Debugger is active!
+2025-04-15 10:16:14,944 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:16:15,185 | WARNING | [Access Denied] None tried to access /match_all_selected
+2025-04-15 10:16:15,187 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /match_all_selected?jd_filename=PACT+Analysis+for+a+Virtual+Car+Showroom+2.pdf&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,203 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "GET / HTTP/1.1" 200 -
+2025-04-15 10:16:15,232 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,233 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,279 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,281 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,289 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,289 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,297 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,298 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,329 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,330 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,337 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,338 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,344 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,344 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,353 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,354 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,360 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,361 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,374 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,374 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,377 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:16:15,408 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,409 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,418 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,419 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,425 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,426 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,435 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,435 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,441 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,442 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,449 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,450 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,462 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,464 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,471 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,473 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:15,484 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:15,485 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,758 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,759 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,823 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,824 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,844 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,846 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,857 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,858 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,869 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,870 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,883 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,885 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,897 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,900 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,913 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,916 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,926 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,928 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,941 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,943 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,955 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,957 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,968 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,970 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,978 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,980 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:17,989 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:17,990 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:17] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,001 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,002 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,012 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,014 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,024 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,026 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,039 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,040 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,052 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,053 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,062 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,064 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,591 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,592 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,605 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,606 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,616 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,618 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,626 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,628 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,641 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,642 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,655 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,657 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,667 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,669 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,678 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,680 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,690 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,692 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,704 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,706 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,717 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,720 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,731 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,733 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,742 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,743 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,754 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,755 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,768 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,769 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,778 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,782 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,792 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,794 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,805 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,806 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,818 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,819 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:18,830 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:16:18,833 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:18] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:16:26,455 | INFO | [JD Upload] guest uploaded JD: PACT Analysis for a Virtual Car Showroom 2.pdf
+2025-04-15 10:16:26,457 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:26] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 10:16:26,470 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:26] "GET / HTTP/1.1" 200 -
+2025-04-15 10:16:26,526 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:16:38,758 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:38] "GET / HTTP/1.1" 200 -
+2025-04-15 10:16:38,835 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:16:42,766 | INFO | 127.0.0.1 - - [15/Apr/2025 10:16:42] "GET /login HTTP/1.1" 200 -
+2025-04-15 10:17:00,636 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:00] "GET / HTTP/1.1" 200 -
+2025-04-15 10:17:00,709 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:17:06,803 | WARNING | [Access Denied] None tried to access /match_all_selected
+2025-04-15 10:17:06,804 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /match_all_selected?jd_filename=PACT+Analysis+for+a+Virtual+Car+Showroom+2.pdf&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,821 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,822 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,837 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,838 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,850 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,851 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,865 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,866 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,877 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,879 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,891 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,892 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,908 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,909 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,923 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,924 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,939 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,940 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,954 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,955 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,968 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,970 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,982 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,984 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:06,995 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:06,998 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:06] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:07,015 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:07,017 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:07] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:07,031 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:07,033 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:07] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:07,044 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:07,046 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:07] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:07,057 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:07,058 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:07] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:07,072 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:07,073 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:07] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:07,085 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:07,086 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:07] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,300 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,302 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,309 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,310 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,322 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,323 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,336 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,338 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,350 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,352 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,362 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,364 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,374 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,376 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,389 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,391 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,404 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,405 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,419 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,421 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,435 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,437 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,453 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,455 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,469 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,471 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,487 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,488 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,501 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,502 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,517 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,519 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,534 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,535 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,547 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,549 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,561 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,564 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:08,575 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:08,577 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:08] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,589 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,590 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,601 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,602 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,614 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,617 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,628 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,631 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,642 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,644 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,655 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,657 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,669 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,670 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,682 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,683 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,692 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,695 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,706 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,707 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,721 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,722 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,735 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,736 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,747 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,749 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,760 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,764 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,774 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,776 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,790 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,791 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,807 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,808 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,822 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,823 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,837 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,838 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:09,851 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:09,854 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:09] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:14,937 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:14,938 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:14] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:14,945 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:14,946 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:14] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:14,953 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:14,954 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:14] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:14,961 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:14,963 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:14] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:14,970 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:14,971 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:14] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:14,979 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:14,980 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:14] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:14,989 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:14,990 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:14] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,000 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,001 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,012 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,015 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,028 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,030 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,042 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,043 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,056 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,058 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,072 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,073 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,088 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,090 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,106 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,107 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,122 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,124 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,137 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,139 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,155 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,157 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,172 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,175 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:15,189 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:15,191 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:15] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:18,369 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:18] "HEAD / HTTP/1.1" 200 -
+2025-04-15 10:17:18,417 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:18] "GET / HTTP/1.1" 200 -
+2025-04-15 10:17:18,458 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:17:20,428 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:20] "GET /login HTTP/1.1" 200 -
+2025-04-15 10:17:30,138 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 10:17:30,154 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:30] "GET /login HTTP/1.1" 200 -
+2025-04-15 10:17:53,073 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,084 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,085 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,091 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,091 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,100 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,101 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,106 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,107 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,117 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,117 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,124 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,124 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,133 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,134 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,140 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,141 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,152 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,152 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,166 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,167 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,177 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,180 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,189 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,190 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,203 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,204 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,216 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,217 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,226 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,228 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,238 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,239 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,251 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,252 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,264 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,266 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:53,274 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:53,275 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:53] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,484 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,485 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,497 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,498 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,514 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,515 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,523 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,524 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,535 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,536 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,546 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,547 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,553 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,554 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,564 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,565 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,573 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,574 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,583 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,585 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,590 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,592 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,602 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,603 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,609 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,611 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,618 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,618 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,624 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,625 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,636 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,637 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,647 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,649 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,659 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,661 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,672 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,673 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,687 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,688 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:17:54,700 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:17:54,702 | INFO | 127.0.0.1 - - [15/Apr/2025 10:17:54] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:21:42,055 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-15 10:21:43,682 | INFO |  * Restarting with stat
+2025-04-15 10:31:06,131 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 10:31:06,132 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-15 10:31:06,136 | INFO |  * Restarting with stat
+2025-04-15 10:31:24,812 | WARNING |  * Debugger is active!
+2025-04-15 10:31:24,817 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:31:25,415 | INFO | 127.0.0.1 - - [15/Apr/2025 10:31:25] "GET / HTTP/1.1" 200 -
+2025-04-15 10:31:25,430 | INFO | 127.0.0.1 - - [15/Apr/2025 10:31:25] "GET / HTTP/1.1" 200 -
+2025-04-15 10:31:25,603 | INFO | 127.0.0.1 - - [15/Apr/2025 10:31:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:31:25,610 | INFO | 127.0.0.1 - - [15/Apr/2025 10:31:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:32:30,905 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\APP.PY', reloading
+2025-04-15 10:32:32,603 | INFO |  * Restarting with stat
+2025-04-15 10:37:30,938 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 10:37:30,938 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-15 10:37:30,941 | INFO |  * Restarting with stat
+2025-04-15 10:37:54,166 | WARNING |  * Debugger is active!
+2025-04-15 10:37:54,174 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:37:54,747 | INFO | 127.0.0.1 - - [15/Apr/2025 10:37:54] "GET / HTTP/1.1" 200 -
+2025-04-15 10:37:54,758 | INFO | 127.0.0.1 - - [15/Apr/2025 10:37:54] "GET / HTTP/1.1" 200 -
+2025-04-15 10:37:54,952 | INFO | 127.0.0.1 - - [15/Apr/2025 10:37:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:37:54,963 | INFO | 127.0.0.1 - - [15/Apr/2025 10:37:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:38:20,296 | WARNING | [Access Denied] None tried to access /match_all_selected
+2025-04-15 10:38:20,303 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /match_all_selected?jd_filename=A.pdf&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,320 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,322 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,336 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,337 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,349 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,350 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,364 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,365 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,378 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,379 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,394 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,395 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,409 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,410 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,423 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,424 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,437 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,438 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,450 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,451 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,464 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,464 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,479 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,480 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,493 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,494 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,506 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,507 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,518 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,519 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,531 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,532 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,546 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,547 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,561 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,562 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:20,574 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:20,575 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:20] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,096 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,097 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,109 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,110 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,120 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,121 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,131 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,132 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,144 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,145 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,158 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,159 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,176 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,177 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,191 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,192 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,205 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,206 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,220 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,221 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,236 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,238 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,251 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,252 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,266 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,267 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,281 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,282 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,295 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,296 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,310 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,311 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,322 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,323 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,337 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,338 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,353 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,354 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:22,367 | WARNING | [Access Denied] None tried to access /admin
+2025-04-15 10:38:22,370 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:22] "[32mGET /admin HTTP/1.1[0m" 302 -
+2025-04-15 10:38:23,692 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:23] "GET / HTTP/1.1" 200 -
+2025-04-15 10:38:29,367 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-15 10:38:29,380 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:29] "GET / HTTP/1.1" 200 -
+2025-04-15 10:38:29,478 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:38:34,770 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:34] "GET /login HTTP/1.1" 200 -
+2025-04-15 10:38:39,929 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 10:38:39,947 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:39] "GET /login HTTP/1.1" 200 -
+2025-04-15 10:38:55,105 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 10:38:55,153 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:55] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-04-15 10:38:55,200 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:55] "GET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-15 10:38:55,202 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:55] "GET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-15 10:38:55,248 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:55] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=heIMyGP4oyvnUGlULKHe HTTP/1.1" 200 -
+2025-04-15 10:38:55,378 | INFO | 127.0.0.1 - - [15/Apr/2025 10:38:55] "GET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-15 10:41:49,382 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 10:41:49,383 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-15 10:41:49,386 | INFO |  * Restarting with stat
+2025-04-15 10:42:13,140 | WARNING |  * Debugger is active!
+2025-04-15 10:42:13,144 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:42:13,700 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:13] "GET / HTTP/1.1" 200 -
+2025-04-15 10:42:13,713 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:13] "GET / HTTP/1.1" 200 -
+2025-04-15 10:42:13,944 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:42:13,954 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:42:22,036 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-15 10:42:22,052 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:22] "GET / HTTP/1.1" 200 -
+2025-04-15 10:42:22,084 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:42:25,012 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:25] "GET /login HTTP/1.1" 200 -
+2025-04-15 10:42:30,850 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:30] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-15 10:42:32,101 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:32] "GET /admin HTTP/1.1" 200 -
+2025-04-15 10:42:32,168 | INFO | 127.0.0.1 - - [15/Apr/2025 10:42:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:43:05,375 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:05] "GET /analytics HTTP/1.1" 200 -
+2025-04-15 10:43:05,587 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:43:06,545 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:06] "[33mGET /static/shap_summary.png HTTP/1.1[0m" 404 -
+2025-04-15 10:43:24,134 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:24] "[33mGET /charts HTTP/1.1[0m" 404 -
+2025-04-15 10:43:25,599 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:25] "GET / HTTP/1.1" 200 -
+2025-04-15 10:43:25,692 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:43:28,770 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:28] "[33mGET /list_resumes HTTP/1.1[0m" 404 -
+2025-04-15 10:43:29,903 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:29] "GET / HTTP/1.1" 200 -
+2025-04-15 10:43:29,969 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:43:31,642 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:31] "[33mGET /view_results HTTP/1.1[0m" 404 -
+2025-04-15 10:43:32,745 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:32] "GET / HTTP/1.1" 200 -
+2025-04-15 10:43:32,811 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:43:34,274 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:34] "[33mGET /charts HTTP/1.1[0m" 404 -
+2025-04-15 10:43:46,202 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:46] "GET / HTTP/1.1" 200 -
+2025-04-15 10:43:46,210 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:46] "GET / HTTP/1.1" 200 -
+2025-04-15 10:43:46,216 | INFO | 127.0.0.1 - - [15/Apr/2025 10:43:46] "GET / HTTP/1.1" 200 -
+2025-04-15 10:47:11,343 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 10:47:11,343 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-15 10:47:11,345 | INFO |  * Restarting with stat
+2025-04-15 10:47:32,384 | WARNING |  * Debugger is active!
+2025-04-15 10:47:32,391 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:47:32,884 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:32] "GET / HTTP/1.1" 200 -
+2025-04-15 10:47:32,897 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:32] "GET / HTTP/1.1" 200 -
+2025-04-15 10:47:33,072 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:47:33,083 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:47:42,281 | INFO | [JD Upload] admin uploaded JD: jd.docx
+2025-04-15 10:47:42,284 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:42] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 10:47:42,294 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:42] "GET / HTTP/1.1" 200 -
+2025-04-15 10:47:42,367 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:47:49,954 | INFO | [Resume Upload] admin uploaded r.docx
+2025-04-15 10:47:49,955 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:49] "[32mPOST /upload_resume HTTP/1.1[0m" 302 -
+2025-04-15 10:47:49,966 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:49] "GET / HTTP/1.1" 200 -
+2025-04-15 10:47:49,992 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:47:55,110 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:55] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 10:47:55,284 | INFO | 127.0.0.1 - - [15/Apr/2025 10:47:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:48:08,251 | INFO | [Trigger] Admin started matching for JD: jd.docx | Mode: None
+2025-04-15 10:48:08,252 | INFO | 127.0.0.1 - - [15/Apr/2025 10:48:08] "[32mGET /match_all_selected?jd_filename=jd.docx&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 302 -
+2025-04-15 10:48:08,734 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 10:48:08,821 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 10:48:08,935 | INFO | 127.0.0.1 - - [15/Apr/2025 10:48:08] "[35m[1mGET /match_all/jd.docx?skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 10:48:09,041 | INFO | 127.0.0.1 - - [15/Apr/2025 10:48:09] "GET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-15 10:48:09,045 | INFO | 127.0.0.1 - - [15/Apr/2025 10:48:09] "GET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-15 10:48:09,115 | INFO | 127.0.0.1 - - [15/Apr/2025 10:48:09] "GET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=console.png&s=dG8Mh0qv6Ag8uhC7krEf HTTP/1.1" 200 -
+2025-04-15 10:48:09,170 | INFO | 127.0.0.1 - - [15/Apr/2025 10:48:09] "GET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-15 10:52:16,215 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\utils\\parser.py', reloading
+2025-04-15 10:52:18,353 | INFO |  * Restarting with stat
+2025-04-15 10:52:38,205 | WARNING |  * Debugger is active!
+2025-04-15 10:52:38,209 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:52:38,532 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:38] "GET / HTTP/1.1" 200 -
+2025-04-15 10:52:38,550 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 10:52:38,627 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 10:52:38,704 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:38] "[35m[1mGET /match_all/jd.docx?skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 10:52:38,741 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:52:38,753 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:38] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:52:38,756 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:38] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 10:52:38,777 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:38] "GET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=console.png&s=VEno0r9FF3ViEEtgSCKn HTTP/1.1" 200 -
+2025-04-15 10:52:38,813 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:38] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 10:52:47,034 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:47] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 10:52:47,077 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:52:57,661 | INFO | [Resume Upload] admin uploaded r.docx
+2025-04-15 10:52:57,663 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:57] "[32mPOST /upload_resume HTTP/1.1[0m" 302 -
+2025-04-15 10:52:57,679 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:57] "GET / HTTP/1.1" 200 -
+2025-04-15 10:52:57,738 | INFO | 127.0.0.1 - - [15/Apr/2025 10:52:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:53:02,408 | INFO | [JD Upload] admin uploaded JD: jd.docx
+2025-04-15 10:53:02,410 | INFO | 127.0.0.1 - - [15/Apr/2025 10:53:02] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 10:53:02,427 | INFO | 127.0.0.1 - - [15/Apr/2025 10:53:02] "GET / HTTP/1.1" 200 -
+2025-04-15 10:53:02,476 | INFO | 127.0.0.1 - - [15/Apr/2025 10:53:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:53:08,854 | INFO | [Trigger] Admin started matching for JD: jd.docx | Mode: None
+2025-04-15 10:53:08,855 | INFO | 127.0.0.1 - - [15/Apr/2025 10:53:08] "[32mGET /match_all_selected?jd_filename=jd.docx&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 302 -
+2025-04-15 10:53:08,984 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 10:53:09,056 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 10:53:09,095 | INFO | 127.0.0.1 - - [15/Apr/2025 10:53:09] "[35m[1mGET /match_all/jd.docx?skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 10:53:09,142 | INFO | 127.0.0.1 - - [15/Apr/2025 10:53:09] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 10:53:09,145 | INFO | 127.0.0.1 - - [15/Apr/2025 10:53:09] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:53:09,194 | INFO | 127.0.0.1 - - [15/Apr/2025 10:53:09] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=console.png&s=VEno0r9FF3ViEEtgSCKn HTTP/1.1[0m" 304 -
+2025-04-15 10:56:11,217 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:11] "GET / HTTP/1.1" 200 -
+2025-04-15 10:56:12,233 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:12] "HEAD / HTTP/1.1" 200 -
+2025-04-15 10:56:12,246 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:12] "GET / HTTP/1.1" 200 -
+2025-04-15 10:56:12,290 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:56:16,133 | INFO | [JD Upload] admin uploaded JD: jjjjj.docx
+2025-04-15 10:56:16,135 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:16] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 10:56:16,150 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:16] "GET / HTTP/1.1" 200 -
+2025-04-15 10:56:16,194 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:56:22,923 | INFO | [Resume Upload] admin uploaded r1.docx
+2025-04-15 10:56:22,923 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:22] "[32mPOST /upload_resume HTTP/1.1[0m" 302 -
+2025-04-15 10:56:22,936 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:22] "GET / HTTP/1.1" 200 -
+2025-04-15 10:56:22,960 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:56:30,238 | INFO | [Trigger] Admin started matching for JD: jjjjj.docx | Mode: None
+2025-04-15 10:56:30,239 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:30] "[32mGET /match_all_selected?jd_filename=jjjjj.docx&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 302 -
+2025-04-15 10:56:30,291 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 10:56:30,355 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 10:56:30,381 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:30] "[35m[1mGET /match_all/jjjjj.docx?skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 10:56:30,458 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:30] "GET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-15 10:56:30,460 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:30] "GET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-15 10:56:30,478 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:30] "GET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=console.png&s=VEno0r9FF3ViEEtgSCKn HTTP/1.1" 200 -
+2025-04-15 10:56:30,501 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:30] "GET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-15 10:56:32,682 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:32] "GET / HTTP/1.1" 200 -
+2025-04-15 10:56:41,313 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:41] "[33mGET /list_resumes HTTP/1.1[0m" 404 -
+2025-04-15 10:56:42,371 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:42] "GET / HTTP/1.1" 200 -
+2025-04-15 10:56:42,394 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:56:45,931 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:45] "[33mGET /view_results HTTP/1.1[0m" 404 -
+2025-04-15 10:56:47,320 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:47] "GET / HTTP/1.1" 200 -
+2025-04-15 10:56:47,343 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:56:48,953 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:48] "[33mGET /charts HTTP/1.1[0m" 404 -
+2025-04-15 10:56:49,743 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:49] "GET / HTTP/1.1" 200 -
+2025-04-15 10:56:49,770 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:56:52,891 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:52] "GET /admin HTTP/1.1" 200 -
+2025-04-15 10:56:52,929 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:56:56,079 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:56] "[33mGET /charts HTTP/1.1[0m" 404 -
+2025-04-15 10:56:57,289 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:57] "GET / HTTP/1.1" 200 -
+2025-04-15 10:56:57,324 | INFO | 127.0.0.1 - - [15/Apr/2025 10:56:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:57:05,010 | INFO | 127.0.0.1 - - [15/Apr/2025 10:57:05] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 10:57:05,042 | INFO | 127.0.0.1 - - [15/Apr/2025 10:57:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:58:36,942 | INFO | 127.0.0.1 - - [15/Apr/2025 10:58:36] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 10:58:36,977 | INFO | 127.0.0.1 - - [15/Apr/2025 10:58:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 10:59:18,826 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-15 10:59:20,336 | INFO |  * Restarting with stat
+2025-04-15 10:59:39,772 | WARNING |  * Debugger is active!
+2025-04-15 10:59:39,777 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 10:59:40,100 | INFO | 127.0.0.1 - - [15/Apr/2025 10:59:40] "GET / HTTP/1.1" 200 -
+2025-04-15 10:59:40,233 | INFO | 127.0.0.1 - - [15/Apr/2025 10:59:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:01:56,738 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-15 11:01:57,940 | INFO |  * Restarting with stat
+2025-04-15 11:02:16,596 | WARNING |  * Debugger is active!
+2025-04-15 11:02:16,599 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 11:02:17,062 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:17] "GET / HTTP/1.1" 200 -
+2025-04-15 11:02:17,072 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:17] "GET / HTTP/1.1" 200 -
+2025-04-15 11:02:17,238 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:02:17,243 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:02:26,698 | INFO | [JD Upload] admin uploaded JD: jjjjj.docx
+2025-04-15 11:02:26,700 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:26] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 11:02:26,718 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:26] "GET / HTTP/1.1" 200 -
+2025-04-15 11:02:26,750 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:02:29,727 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:29] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 11:02:29,780 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:02:31,694 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:31] "GET /?matching_mode=semantic HTTP/1.1" 200 -
+2025-04-15 11:02:31,866 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:02:48,732 | INFO | [Resume Upload] admin uploaded r1.docx
+2025-04-15 11:02:48,737 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:48] "[32mPOST /upload_resume HTTP/1.1[0m" 302 -
+2025-04-15 11:02:48,757 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:48] "GET / HTTP/1.1" 200 -
+2025-04-15 11:02:48,806 | INFO | 127.0.0.1 - - [15/Apr/2025 11:02:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:03:12,717 | INFO | [Resume Upload] admin uploaded r2.docx
+2025-04-15 11:03:12,724 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:12] "[32mPOST /upload_resume HTTP/1.1[0m" 302 -
+2025-04-15 11:03:12,765 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:12] "GET / HTTP/1.1" 200 -
+2025-04-15 11:03:12,805 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:03:15,525 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:15] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 11:03:15,588 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:03:17,645 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:17] "GET /?matching_mode=semantic HTTP/1.1" 200 -
+2025-04-15 11:03:17,899 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:03:19,932 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:19] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 11:03:20,081 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:03:26,489 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:26] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 11:03:26,573 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:03:39,993 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:39] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 11:03:40,030 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:03:43,965 | INFO | [Trigger] Admin started matching for JD: jd.docx | Mode: None
+2025-04-15 11:03:43,971 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:43] "[32mGET /match_all_selected?jd_filename=jd.docx&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 302 -
+2025-04-15 11:03:44,030 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:03:44,092 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:03:44,144 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:44] "[35m[1mGET /match_all/jd.docx?skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 11:03:44,182 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:44] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:03:44,184 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:44] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 11:03:44,270 | INFO | 127.0.0.1 - - [15/Apr/2025 11:03:44] "GET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=console.png&s=JwevYoQapz2u9WoSEyyX HTTP/1.1" 200 -
+2025-04-15 11:05:10,677 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-15 11:05:12,002 | INFO |  * Restarting with stat
+2025-04-15 11:05:36,669 | WARNING |  * Debugger is active!
+2025-04-15 11:05:36,671 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 11:05:37,005 | INFO | 127.0.0.1 - - [15/Apr/2025 11:05:37] "GET / HTTP/1.1" 200 -
+2025-04-15 11:05:37,161 | INFO | 127.0.0.1 - - [15/Apr/2025 11:05:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:05:44,678 | INFO | 127.0.0.1 - - [15/Apr/2025 11:05:44] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 11:05:44,804 | INFO | 127.0.0.1 - - [15/Apr/2025 11:05:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:05:56,092 | INFO | [JD Upload] admin uploaded JD: jjjjj.docx
+2025-04-15 11:05:56,094 | INFO | 127.0.0.1 - - [15/Apr/2025 11:05:56] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 11:05:56,108 | INFO | 127.0.0.1 - - [15/Apr/2025 11:05:56] "GET / HTTP/1.1" 200 -
+2025-04-15 11:05:56,174 | INFO | 127.0.0.1 - - [15/Apr/2025 11:05:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:05:58,328 | INFO | 127.0.0.1 - - [15/Apr/2025 11:05:58] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 11:05:58,385 | INFO | 127.0.0.1 - - [15/Apr/2025 11:05:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:06:03,876 | INFO | [Resume Upload] admin uploaded r2.docx
+2025-04-15 11:06:03,877 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:03] "[32mPOST /upload_resume HTTP/1.1[0m" 302 -
+2025-04-15 11:06:03,889 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:03] "GET / HTTP/1.1" 200 -
+2025-04-15 11:06:03,937 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:06:05,620 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:05] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 11:06:05,662 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:06:18,599 | INFO | [Trigger] Admin started matching for JD: jd.docx | Mode: None
+2025-04-15 11:06:18,601 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:18] "[32mGET /match_all_selected?jd_filename=jd.docx&skill_weight=0.6&exp_weight=0.1 HTTP/1.1[0m" 302 -
+2025-04-15 11:06:18,631 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:06:18,720 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:06:18,796 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:18] "[35m[1mGET /match_all/jd.docx?skill_weight=0.6&exp_weight=0.1 HTTP/1.1[0m" 500 -
+2025-04-15 11:06:18,860 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:18] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:06:18,865 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:18] "[36mGET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 11:06:18,894 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:18] "GET /match_all/jd.docx?__debugger__=yes&cmd=resource&f=console.png&s=Zcv5WEQm7pbenR7xQKXT HTTP/1.1" 200 -
+2025-04-15 11:06:23,117 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:23] "[33mGET /list_resumes HTTP/1.1[0m" 404 -
+2025-04-15 11:06:24,853 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:24] "GET / HTTP/1.1" 200 -
+2025-04-15 11:06:24,889 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:06:26,856 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:26] "[33mGET /charts HTTP/1.1[0m" 404 -
+2025-04-15 11:06:27,807 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:27] "GET / HTTP/1.1" 200 -
+2025-04-15 11:06:27,860 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:06:30,006 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:30] "[33mGET /view_results HTTP/1.1[0m" 404 -
+2025-04-15 11:06:31,275 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:31] "GET / HTTP/1.1" 200 -
+2025-04-15 11:06:31,314 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:06:33,120 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:33] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-04-15 11:06:33,172 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:33] "[36mGET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:06:33,173 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:33] "[36mGET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 11:06:33,301 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:33] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=Zcv5WEQm7pbenR7xQKXT HTTP/1.1" 200 -
+2025-04-15 11:06:33,369 | INFO | 127.0.0.1 - - [15/Apr/2025 11:06:33] "[36mGET /admin?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-15 11:07:24,700 | INFO |  * Detected change in 'C:\\Users\\moust\\OneDrive\\Desktop\\resume-clean\\app.py', reloading
+2025-04-15 11:07:25,971 | INFO |  * Restarting with stat
+2025-04-15 11:07:48,054 | WARNING |  * Debugger is active!
+2025-04-15 11:07:48,350 | INFO |  * Debugger PIN: 224-514-821
+2025-04-15 11:07:49,716 | INFO | 127.0.0.1 - - [15/Apr/2025 11:07:49] "GET / HTTP/1.1" 200 -
+2025-04-15 11:07:49,803 | INFO | 127.0.0.1 - - [15/Apr/2025 11:07:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:33:47,351 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-15 11:33:47,353 | INFO | [33mPress CTRL+C to quit[0m
+2025-04-15 11:33:47,358 | INFO |  * Restarting with stat
+2025-04-15 11:34:07,947 | WARNING |  * Debugger is active!
+2025-04-15 11:34:07,954 | INFO |  * Debugger PIN: 926-787-967
+2025-04-15 11:34:11,997 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:11] "GET / HTTP/1.1" 200 -
+2025-04-15 11:34:12,016 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:12] "GET / HTTP/1.1" 200 -
+2025-04-15 11:34:13,699 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:34:13,711 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:34:31,262 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:31] "GET /?matching_mode=synonym HTTP/1.1" 200 -
+2025-04-15 11:34:31,427 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:34:34,481 | INFO | [Trigger] Admin started matching for JD: jjjjj.docx | Mode: None
+2025-04-15 11:34:34,484 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:34] "[32mGET /match_all_selected?jd_filename=jjjjj.docx&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 302 -
+2025-04-15 11:34:34,909 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:34:35,009 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:34:35,288 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:35] "[35m[1mGET /match_all/jjjjj.docx?skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 11:34:35,496 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:35] "[36mGET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:34:35,861 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:35] "[36mGET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 11:34:35,975 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:35] "GET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=console.png&s=M2pzjXTTMjcYRvO4qVSa HTTP/1.1" 200 -
+2025-04-15 11:34:36,511 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:34:36,594 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:34:36,661 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:36] "[35m[1mHEAD /match_all/jjjjj.docx?skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 11:34:36,713 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:34:36,794 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:34:36,874 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:36] "[35m[1mGET /match_all/jjjjj.docx?skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 11:34:36,923 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:36] "[36mGET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:34:36,925 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:36] "[36mGET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 11:34:36,942 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:36] "[36mGET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=console.png&s=M2pzjXTTMjcYRvO4qVSa HTTP/1.1[0m" 304 -
+2025-04-15 11:34:40,842 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:40] "[33mGET /view_results HTTP/1.1[0m" 404 -
+2025-04-15 11:34:42,225 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:42] "GET / HTTP/1.1" 200 -
+2025-04-15 11:34:42,289 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:34:51,098 | INFO | [JD Upload] admin uploaded JD: jjjjj.docx
+2025-04-15 11:34:51,101 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:51] "[32mPOST /upload_jd HTTP/1.1[0m" 302 -
+2025-04-15 11:34:51,136 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:51] "GET / HTTP/1.1" 200 -
+2025-04-15 11:34:51,204 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:34:56,634 | INFO | [Resume Upload] admin uploaded r2.docx
+2025-04-15 11:34:56,636 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:56] "[32mPOST /upload_resume HTTP/1.1[0m" 302 -
+2025-04-15 11:34:56,652 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:56] "GET / HTTP/1.1" 200 -
+2025-04-15 11:34:56,709 | INFO | 127.0.0.1 - - [15/Apr/2025 11:34:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:35:02,114 | INFO | [Trigger] Admin started matching for JD: jjjjj.docx | Mode: None
+2025-04-15 11:35:02,117 | INFO | 127.0.0.1 - - [15/Apr/2025 11:35:02] "[32mGET /match_all_selected?jd_filename=jjjjj.docx&skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 302 -
+2025-04-15 11:35:02,177 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:35:02,263 | WARNING | CropBox missing from /Page, defaulting to MediaBox
+2025-04-15 11:35:02,326 | INFO | 127.0.0.1 - - [15/Apr/2025 11:35:02] "[35m[1mGET /match_all/jjjjj.docx?skill_weight=0.6&exp_weight=0.4 HTTP/1.1[0m" 500 -
+2025-04-15 11:35:02,389 | INFO | 127.0.0.1 - - [15/Apr/2025 11:35:02] "[36mGET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 11:35:02,392 | INFO | 127.0.0.1 - - [15/Apr/2025 11:35:02] "[36mGET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:35:02,427 | INFO | 127.0.0.1 - - [15/Apr/2025 11:35:02] "[36mGET /match_all/jjjjj.docx?__debugger__=yes&cmd=resource&f=console.png&s=M2pzjXTTMjcYRvO4qVSa HTTP/1.1[0m" 304 -
+2025-04-15 11:35:28,209 | INFO | 127.0.0.1 - - [15/Apr/2025 11:35:28] "[35m[1mGET /admin HTTP/1.1[0m" 500 -
+2025-04-15 11:35:28,294 | INFO | 127.0.0.1 - - [15/Apr/2025 11:35:28] "[36mGET /admin?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-15 11:35:28,298 | INFO | 127.0.0.1 - - [15/Apr/2025 11:35:28] "[36mGET /admin?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-15 11:35:28,420 | INFO | 127.0.0.1 - - [15/Apr/2025 11:35:28] "GET /admin?__debugger__=yes&cmd=resource&f=console.png&s=M2pzjXTTMjcYRvO4qVSa HTTP/1.1" 200 -

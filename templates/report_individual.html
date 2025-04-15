@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Candidate Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      font-size: 14px;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 22px;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .label {
+      font-weight: bold;
+      color: #34495e;
+      display: block;
+      margin-bottom: 6px;
+    }
+    .box {
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📄 Candidate Resume Report</h1>
+
+  <div class="section">
+    <span class="label">Name:</span>
+    <div class="box">{{ r.name }}</div>
+  </div>
+
+  <div class="section">
+    <span class="label">Email:</span>
+    <div class="box">{{ r.email }}</div>
+  </div>
+
+  <div class="section">
+    <span class="label">Match Score:</span>
+    <div class="box">{{ r.score }}%</div>
+  </div>
+
+  <div class="section">
+    <span class="label">Experience Level:</span>
+    <div class="box">{{ r.experience_level }}</div>
+  </div>
+
+  <div class="section">
+    <span class="label">Top Matched Skills:</span>
+    <div class="box">{{ r.matched_skills | join(', ') }}</div>
+  </div>
+
+  <div class="section">
+    <span class="label">Feedback:</span>
+    <div class="box">{{ r.feedback }}</div>
+  </div>
+
+  {% if r.suggested_title %}
+  <div class="section">
+    <span class="label">Suggested Job Title (GPT):</span>
+    <div class="box">{{ r.suggested_title }}</div>
+  </div>
+  {% endif %}
+
+  {% if r.gpt_suggestions %}
+  <div class="section">
+    <span class="label">Other GPT Suggestions:</span>
+    <div class="box">{{ r.gpt_suggestions | join(', ') }}</div>
+  </div>
+  {% endif %}
+
+  {% if r.ml_predicted_title %}
+  <div class="section">
+    <span class="label">Predicted Title (JD ML):</span>
+    <div class="box">{{ r.ml_predicted_title }}</div>
+  </div>
+  {% endif %}
+
+  {% if r.resume_predicted_title %}
+  <div class="section">
+    <span class="label">Predicted Title (Resume ML):</span>
+    <div class="box">{{ r.resume_predicted_title }}</div>
+  </div>
+  {% endif %}
+
+  {% if r.confidence %}
+  <div class="section">
+    <span class="label">Resume Classifier Confidence:</span>
+    <div class="box">{{ r.confidence }}%</div>
+  </div>
+  {% endif %}
+
+  {% if r.notes %}
+  <div class="section">
+    <span class="label">Admin Notes:</span>
+    <div class="box">{{ r.notes }}</div>
+  </div>
+  {% endif %}
+
+  {% if r.rating %}
+  <div class="section">
+    <span class="label">Rating:</span>
+    <div class="box">{{ r.rating }}/5</div>
+  </div>
+  {% endif %}
+
+</body>
+</html>

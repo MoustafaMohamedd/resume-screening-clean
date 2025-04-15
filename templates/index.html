@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1 class="text-center mb-4">🚀 AI-Powered Resume Screening</h1>
+
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <div class="alert alert-info text-center">
+        {{ messages[0] }}
+      </div>
+    {% endif %}
+  {% endwith %}
+
+  <!-- 📄 Upload JD -->
+  <div class="card mb-4">
+    <div class="card-header">📄 Upload Job Description</div>
+    <div class="card-body">
+      <form action="/upload_jd" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+          <label class="form-label">Select JD File (PDF or DOCX):</label>
+          <input type="file" name="jd_file" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Upload JD</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 🧠 Matching Strategy Selector -->
+  <form method="get" action="/" class="mb-4">
+    <label for="matching_mode" class="form-label">Choose Matching Strategy:</label>
+    <select name="matching_mode" class="form-select w-auto d-inline" onchange="this.form.submit()">
+      <option value="exact" {% if matching_mode == 'exact' %}selected{% endif %}>Exact Matching</option>
+      <option value="synonym" {% if matching_mode == 'synonym' %}selected{% endif %}>Synonym Matching</option>
+      <option value="semantic" {% if matching_mode == 'semantic' %}selected{% endif %}>Semantic Matching</option>
+    </select>
+  </form>
+  <p class="text-muted">
+    📌 Currently using <span class="badge bg-info">{{ matching_mode|capitalize }}</span> Matching
+  </p>
+
+  <!-- 👥 Upload Resumes -->
+  <div class="card mb-4">
+    <div class="card-header">👥 Upload Resume(s)</div>
+    <div class="card-body">
+      <form action="/upload_resume" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+          <label class="form-label">Select Resume Files (PDF or DOCX):</label>
+          <input type="file" name="resume" class="form-control" multiple required>
+        </div>
+        <button type="submit" class="btn btn-success">Upload Resumes</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- 🎯 Match All Action -->
+  <form action="/match_all_selected" method="get" class="row g-3">
+    <div class="col-md-4">
+      <select name="jd_filename" class="form-select" required>
+        <option value="" disabled selected>Select JD</option>
+        {% for jd in jd_files %}
+          <option value="{{ jd }}">{{ jd }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <!-- 🎯 Adjustable Weights -->
+    <div class="col-md-3">
+      <label for="skill_weight" class="form-label">🧠 Skill Weight</label>
+      <input type="number" name="skill_weight" step="0.1" min="0" max="1" value="0.6" class="form-control">
+    </div>
+    <div class="col-md-3">
+      <label for="exp_weight" class="form-label">📈 Experience Weight</label>
+      <input type="number" name="exp_weight" step="0.1" min="0" max="1" value="0.4" class="form-control">
+    </div>
+
+    <div class="col-md-2 d-flex align-items-end">
+      <button type="submit" class="btn btn-primary w-100">Match All</button>
+    </div>
+  </form>
+
+  <!-- 🔗 Navigation -->
+  <div class="d-flex justify-content-center gap-3 flex-wrap mt-4">
+    <a href="/list_resumes" class="btn btn-outline-secondary">🗂 Uploaded Resumes</a>
+    <a href="/view_results" class="btn btn-outline-success">📊 View Match Results</a>
+    <a href="/charts" class="btn btn-outline-info">📈 Analytics</a>
+    {% if session.logged_in %}
+      <a href="/admin" class="btn btn-warning">🧑‍💼 Admin Dashboard</a>
+      <a href="/logout" class="btn btn-outline-danger">🚪 Logout</a>
+    {% else %}
+      <a href="/login" class="btn btn-outline-primary">🔐 Admin Login</a>
+    {% endif %}
+  </div>
+{% endblock %}

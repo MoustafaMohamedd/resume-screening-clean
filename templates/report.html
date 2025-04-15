@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Match Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      font-size: 13px;
+      color: #2c3e50;
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .section {
+      margin-bottom: 35px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
+      page-break-inside: avoid;
+    }
+    .label {
+      font-weight: bold;
+      color: #34495e;
+    }
+    .value {
+      margin-bottom: 8px;
+    }
+    .score {
+      font-size: 15px;
+      font-weight: bold;
+      color: #27ae60;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📄 Resume Matching Report</h1>
+
+  {% for r in results %}
+  <div class="section">
+    <div class="value"><span class="label">Name:</span> {{ r.name }}</div>
+    <div class="value"><span class="label">Email:</span> {{ r.email }}</div>
+    <div class="value score"><span class="label">Match Score:</span> {{ r.score }}%</div>
+    <div class="value"><span class="label">Experience Level:</span> {{ r.experience_level }}</div>
+    <div class="value"><span class="label">Matched Skills:</span> {{ r.matched_skills | join(', ') }}</div>
+    <div class="value"><span class="label">Feedback:</span> {{ r.feedback }}</div>
+
+    {% if r.suggested_title %}
+      <div class="value"><span class="label">Suggested Job Title (GPT):</span> {{ r.suggested_title }}</div>
+    {% endif %}
+
+    {% if r.gpt_suggestions %}
+      <div class="value"><span class="label">All GPT Suggestions:</span> {{ r.gpt_suggestions | join(', ') }}</div>
+    {% endif %}
+
+    {% if r.ml_predicted_title %}
+      <div class="value"><span class="label">Predicted Job Title (JD ML):</span> {{ r.ml_predicted_title }}</div>
+    {% endif %}
+
+    {% if r.resume_predicted_title %}
+      <div class="value"><span class="label">Resume Classifier Prediction:</span> {{ r.resume_predicted_title }}</div>
+    {% endif %}
+
+    {% if r.confidence %}
+      <div class="value"><span class="label">ML Confidence:</span> {{ r.confidence }}%</div>
+    {% endif %}
+
+    {% if r.notes %}
+      <div class="value"><span class="label">Admin Notes:</span> {{ r.notes }}</div>
+    {% endif %}
+
+    {% if r.rating %}
+      <div class="value"><span class="label">Rating:</span> {{ r.rating }}/5</div>
+    {% endif %}
+  </div>
+  {% endfor %}
+
+</body>
+</html>

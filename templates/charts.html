@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume Screening Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f9f9f9;
+    }
+    h1, h4 {
+      text-align: center;
+    }
+    .chart-container {
+      max-width: 800px;
+      margin: 0 auto 50px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body class="container mt-5">
+
+  <h1 class="mb-4">📊 Resume Screening Insights</h1>
+
+  <!-- 🔹 Bar Chart: Top Candidates -->
+  <div class="chart-container mb-5">
+    <h4>Top Candidates by Match Score</h4>
+    <canvas id="scoreChart"></canvas>
+  </div>
+
+  <!-- 🟠 Pie Chart: Experience Distribution -->
+  <div class="chart-container mb-5">
+    <h4>Experience Level Distribution</h4>
+    <canvas id="expChart"></canvas>
+  </div>
+
+  <div class="text-center">
+    <a href="/" class="btn btn-secondary">⬅ Back to Home</a>
+  </div>
+
+  <script>
+    // 📊 Bar Chart: Match Score %
+    const scoreCtx = document.getElementById('scoreChart').getContext('2d');
+    const scoreChart = new Chart(scoreCtx, {
+      type: 'bar',
+      data: {
+        labels: {{ labels | tojson }},
+        datasets: [{
+          label: 'Match Score (%)',
+          data: {{ scores | tojson }},
+          backgroundColor: 'rgba(54, 162, 235, 0.6)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 100,
+            title: {
+              display: true,
+              text: 'Score %'
+            }
+          }
+        },
+        plugins: {
+          legend: {
+            display: false
+          },
+          tooltip: {
+            callbacks: {
+              label: (ctx) => `${ctx.raw}%`
+            }
+          }
+        }
+      }
+    });
+
+    // 🧠 Pie Chart: Experience Level Spread
+    const expCtx = document.getElementById('expChart').getContext('2d');
+    const expChart = new Chart(expCtx, {
+      type: 'pie',
+      data: {
+        labels: Object.keys({{ experience_levels | tojson }}),
+        datasets: [{
+          data: Object.values({{ experience_levels | tojson }}),
+          backgroundColor: ['#00b894', '#fdcb6e', '#d63031', '#b2bec3']
+        }]
+      },
+      options: {
+        responsive: true,
+        plugins: {
+          legend: {
+            position: 'bottom'
+          },
+          tooltip: {
+            callbacks: {
+              label: function(ctx) {
+                const label = ctx.label || '';
+                const value = ctx.raw || 0;
+                return `${label}: ${value}`;
+              }
+            }
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>

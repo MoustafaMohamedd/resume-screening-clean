@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h2 class="mb-3">📊 Analytics Dashboard</h2>
+
+  <!-- 🌙 Dark Mode Toggle Button -->
+  <button id="darkToggle" class="btn btn-sm btn-secondary" style="position: fixed; top: 10px; right: 10px; z-index: 999;">
+    🌙 Toggle Dark Mode
+  </button>
+
+  <!-- 📈 Chart 1: Score Distribution -->
+  <div class="mb-4">
+    <h4>Match Score Distribution</h4>
+    <img src="data:image/png;base64,{{ img1 }}" class="img-fluid" />
+  </div>
+
+  <!-- 📊 Chart 2: Top Predicted Titles -->
+  <div class="mb-4">
+    <h4>Top Predicted Job Titles</h4>
+    <img src="data:image/png;base64,{{ img2 }}" class="img-fluid" />
+  </div>
+
+  <!-- 🔬 SHAP Summary Plot -->
+  <div class="mb-5">
+    <h4>Top Feature Contributions (SHAP Summary)</h4>
+    <img src="{{ url_for('static', filename='shap_summary.png') }}" class="img-fluid" />
+  </div>
+
+  <!-- 🔁 Dark Mode Script -->
+  <script>
+    const toggleBtn = document.getElementById("darkToggle");
+
+    if (localStorage.getItem("theme") === "dark") {
+      document.body.classList.add("dark-mode");
+    }
+
+    toggleBtn.onclick = () => {
+      document.body.classList.toggle("dark-mode");
+      localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+    };
+  </script>
+{% endblock %}
